@@ -1,0 +1,461 @@
+[
+  {
+    "Name": "Bulbizarre",
+    "Type": 3,
+    "Level": 1,
+    "Experience": 0,
+    "Life": 45,
+    "Mana": 90,
+    "DamageAttack": 49,
+    "Defense": 49,
+    "SpeedAttack": 45,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge",
+      "Fouet Lianes"
+    ]
+  },
+  {
+    "Name": "Herbizarre",
+    "Type": 3,
+    "Level": 16,
+    "Experience": 0,
+    "Life": 60,
+    "Mana": 120,
+    "DamageAttack": 62,
+    "Defense": 63,
+    "SpeedAttack": 60,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge",
+      "Fouet Lianes"
+    ]
+  },
+  {
+    "Name": "Florizarre",
+    "Type": 3,
+    "Level": 32,
+    "Experience": 0,
+    "Life": 80,
+    "Mana": 160,
+    "DamageAttack": 82,
+    "Defense": 83,
+    "SpeedAttack": 80,
+    "HasEvolution": false,
+    "Competences": [
+      "Charge",
+      "Fouet Lianes"
+    ]
+  },
+  {
+    "Name": "Salameche",
+    "Type": 1,
+    "Level": 1,
+    "Experience": 0,
+    "Life": 39,
+    "Mana": 78,
+    "DamageAttack": 52,
+    "Defense": 43,
+    "SpeedAttack": 65,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge",
+      "Flammeche"
+    ]
+  },
+  {
+    "Name": "Reptincel",
+    "Type": 1,
+    "Level": 16,
+    "Experience": 0,
+    "Life": 58,
+    "Mana": 116,
+    "DamageAttack": 64,
+    "Defense": 58,
+    "SpeedAttack": 80,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge",
+      "Flammeche"
+    ]
+  },
+  {
+    "Name": "Dracaufeu",
+    "Type": 1,
+    "Level": 36,
+    "Experience": 0,
+    "Life": 78,
+    "Mana": 156,
+    "DamageAttack": 84,
+    "Defense": 78,
+    "SpeedAttack": 100,
+    "HasEvolution": false,
+    "Competences": [
+      "Charge",
+      "Flammeche"
+    ]
+  },
+  {
+    "Name": "Carapuce",
+    "Type": 2,
+    "Level": 1,
+    "Experience": 0,
+    "Life": 44,
+    "Mana": 88,
+    "DamageAttack": 48,
+    "Defense": 65,
+    "SpeedAttack": 43,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge",
+      "Pistolet a O"
+    ]
+  },
+  {
+    "Name": "Carabaffe",
+    "Type": 2,
+    "Level": 16,
+    "Experience": 0,
+    "Life": 59,
+    "Mana": 118,
+    "DamageAttack": 63,
+    "Defense": 80,
+    "SpeedAttack": 58,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge",
+      "Pistolet a O"
+    ]
+  },
+  {
+    "Name": "Tortank",
+    "Type": 2,
+    "Level": 36,
+    "Experience": 0,
+    "Life": 79,
+    "Mana": 158,
+    "DamageAttack": 83,
+    "Defense": 100,
+    "SpeedAttack": 78,
+    "HasEvolution": false,
+    "Competences": [
+      "Charge",
+      "Pistolet a O"
+    ]
+  },
+  {
+    "Name": "Chenipan",
+    "Type": 3,
+    "Level": 1,
+    "Experience": 0,
+    "Life": 45,
+    "Mana": 90,
+    "DamageAttack": 30,
+    "Defense": 35,
+    "SpeedAttack": 45,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Chrysacier",
+    "Type": 3,
+    "Level": 7,
+    "Experience": 0,
+    "Life": 50,
+    "Mana": 100,
+    "DamageAttack": 20,
+    "Defense": 55,
+    "SpeedAttack": 30,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Papillusion",
+    "Type": 3,
+    "Level": 10,
+    "Experience": 0,
+    "Life": 60,
+    "Mana": 120,
+    "DamageAttack": 45,
+    "Defense": 50,
+    "SpeedAttack": 70,
+    "HasEvolution": false,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Aspicot",
+    "Type": 3,
+    "Level": 1,
+    "Experience": 0,
+    "Life": 40,
+    "Mana": 80,
+    "DamageAttack": 35,
+    "Defense": 30,
+    "SpeedAttack": 50,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Coconfort",
+    "Type": 3,
+    "Level": 7,
+    "Experience": 0,
+    "Life": 45,
+    "Mana": 90,
+    "DamageAttack": 25,
+    "Defense": 50,
+    "SpeedAttack": 35,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Dardagnan",
+    "Type": 3,
+    "Level": 10,
+    "Experience": 0,
+    "Life": 65,
+    "Mana": 130,
+    "DamageAttack": 90,
+    "Defense": 40,
+    "SpeedAttack": 75,
+    "HasEvolution": false,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Roucool",
+    "Type": 0,
+    "Level": 1,
+    "Experience": 0,
+    "Life": 40,
+    "Mana": 80,
+    "DamageAttack": 45,
+    "Defense": 40,
+    "SpeedAttack": 56,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Roucoups",
+    "Type": 0,
+    "Level": 18,
+    "Experience": 0,
+    "Life": 63,
+    "Mana": 126,
+    "DamageAttack": 60,
+    "Defense": 55,
+    "SpeedAttack": 71,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Roucarnage",
+    "Type": 0,
+    "Level": 36,
+    "Experience": 0,
+    "Life": 83,
+    "Mana": 166,
+    "DamageAttack": 80,
+    "Defense": 75,
+    "SpeedAttack": 101,
+    "HasEvolution": false,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Rattata",
+    "Type": 0,
+    "Level": 1,
+    "Experience": 0,
+    "Life": 30,
+    "Mana": 60,
+    "DamageAttack": 56,
+    "Defense": 35,
+    "SpeedAttack": 72,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Rattatac",
+    "Type": 0,
+    "Level": 20,
+    "Experience": 0,
+    "Life": 55,
+    "Mana": 110,
+    "DamageAttack": 81,
+    "Defense": 60,
+    "SpeedAttack": 97,
+    "HasEvolution": false,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Piafabec",
+    "Type": 0,
+    "Level": 1,
+    "Experience": 0,
+    "Life": 40,
+    "Mana": 80,
+    "DamageAttack": 60,
+    "Defense": 30,
+    "SpeedAttack": 70,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Rapasdepic",
+    "Type": 0,
+    "Level": 20,
+    "Experience": 0,
+    "Life": 65,
+    "Mana": 130,
+    "DamageAttack": 90,
+    "Defense": 65,
+    "SpeedAttack": 100,
+    "HasEvolution": false,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Taupiqueur",
+    "Type": 5,
+    "Level": 1,
+    "Experience": 0,
+    "Life": 10,
+    "Mana": 20,
+    "DamageAttack": 55,
+    "Defense": 25,
+    "SpeedAttack": 95,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Triopiqueur",
+    "Type": 5,
+    "Level": 26,
+    "Experience": 0,
+    "Life": 35,
+    "Mana": 70,
+    "DamageAttack": 100,
+    "Defense": 50,
+    "SpeedAttack": 120,
+    "HasEvolution": false,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Racaillou",
+    "Type": 6,
+    "Level": 1,
+    "Experience": 0,
+    "Life": 40,
+    "Mana": 80,
+    "DamageAttack": 80,
+    "Defense": 100,
+    "SpeedAttack": 20,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Gravalanch",
+    "Type": 6,
+    "Level": 25,
+    "Experience": 0,
+    "Life": 55,
+    "Mana": 110,
+    "DamageAttack": 95,
+    "Defense": 115,
+    "SpeedAttack": 35,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Grolem",
+    "Type": 6,
+    "Level": 36,
+    "Experience": 0,
+    "Life": 80,
+    "Mana": 160,
+    "DamageAttack": 120,
+    "Defense": 130,
+    "SpeedAttack": 45,
+    "HasEvolution": false,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Mystherbe",
+    "Type": 3,
+    "Level": 1,
+    "Experience": 0,
+    "Life": 45,
+    "Mana": 90,
+    "DamageAttack": 50,
+    "Defense": 55,
+    "SpeedAttack": 30,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Ortide",
+    "Type": 3,
+    "Level": 21,
+    "Experience": 0,
+    "Life": 60,
+    "Mana": 120,
+    "DamageAttack": 65,
+    "Defense": 70,
+    "SpeedAttack": 40,
+    "HasEvolution": true,
+    "Competences": [
+      "Charge"
+    ]
+  },
+  {
+    "Name": "Raflesia",
+    "Type": 3,
+    "Level": 36,
+    "Experience": 0,
+    "Life": 75,
+    "Mana": 150,
+    "DamageAttack": 80,
+    "Defense": 85,
+    "SpeedAttack": 50,
+    "HasEvolution": false,
+    "Competences": [
+      "Charge"
+    ]
+  }
+]

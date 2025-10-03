@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Plains",
+    "LevelMin": 2,
+    "LevelMax": 5,
+    "ApparitionRate": 3,
+    "PokemonsNames": [ "Rattata", "Roucool", "Piafabec" ]
+  },
+  {
+    "Name": "Forest",
+    "LevelMin": 3,
+    "LevelMax": 7,
+    "ApparitionRate": 4,
+    "PokemonsNames": [ "Chenipan", "Chrysacier", "Papillusion", "Aspicot", "Coconfort", "Dardagnan", "Mystherbe" ]
+  },
+  {
+    "Name": "Cave",
+    "LevelMin": 6,
+    "LevelMax": 12,
+    "ApparitionRate": 2,
+    "PokemonsNames": [ "Taupiqueur", "Triopiqueur", "Racaillou" ]
+  },
+  {
+    "Name": "FlowerField",
+    "LevelMin": 8,
+    "LevelMax": 14,
+    "ApparitionRate": 1,
+    "PokemonsNames": [ "Ortide", "Raflesia" ]
+  }
+]

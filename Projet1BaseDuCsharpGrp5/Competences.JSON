@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "Flammeche",
+    "Type": 1,
+    "ManaCost": 2,
+    "DamageAttack": 40,
+    "SpeedAttack": 20
+  },
+  {
+    "Name": "Pistolet a O",
+    "Type": 2,
+    "ManaCost": 2,
+    "DamageAttack": 40,
+    "SpeedAttack": 20
+  },
+  {
+    "Name": "Fouet Lianes",
+    "Type": 3,
+    "ManaCost": 2,
+    "DamageAttack": 35,
+    "SpeedAttack": 20
+  },
+  {
+    "Name": "Charge",
+    "Type": 0,
+    "ManaCost": 1,
+    "DamageAttack": 40,
+    "SpeedAttack": 20
+  },
+  {
+    "Name": "Tonnerre",
+    "Type": 4,
+    "ManaCost": 2,
+    "DamageAttack": 90,
+    "SpeedAttack": 20
+  },
+  {
+    "Name": "Draco-Rage",
+    "Type": 0,
+    "ManaCost": 3,
+    "DamageAttack": 40,
+    "SpeedAttack": 20
+  },
+  {
+    "Name": "Poing Karate",
+    "Type": 0,
+    "ManaCost": 2,
+    "DamageAttack": 50,
+    "SpeedAttack": 20
+  },
+  {
+    "Name": "Bec Vrille",
+    "Type": 0,
+    "ManaCost": 2,
+    "DamageAttack": 80,
+    "SpeedAttack": 20
+  },
+  {
+    "Name": "Seisme",
+    "Type": 0,
+    "ManaCost": 2,
+    "DamageAttack": 100,
+    "SpeedAttack": 20
+  },
+  {
+    "Name": "Laser Glace",
+    "Type": 0,
+    "ManaCost": 3,
+    "DamageAttack": 90,
+    "SpeedAttack": 20
+  }
+]

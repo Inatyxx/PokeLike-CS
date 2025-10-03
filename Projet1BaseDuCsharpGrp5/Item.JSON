@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Pokeball",
+    "ItemType": 0,
+    "Value": 20,
+    "Quantity": 1
+  },
+  {
+    "Name": "Superball",
+    "ItemType": 0,
+    "Value": 40,
+    "Quantity": 1
+  },
+  {
+    "Name": "Hyperball",
+    "ItemType": 0,
+    "Value": 60,
+    "Quantity": 1
+  },
+  {
+    "Name": "Potion de soin",
+    "ItemType": 1,
+    "Value": 20,
+    "Quantity": 1
+  },
+  {
+    "Name": "Potion de mana",
+    "ItemType": 2,
+    "Value": 20,
+    "Quantity": 1
+  },
+  {
+    "Name": "Rappel",
+    "ItemType": 3,
+    "Value": 20,
+    "Quantity": 1
+  },
+  {
+    "Name": "RappelMax",
+    "ItemType": 4,
+    "Value": 20,
+    "Quantity": 1
+  },
+  {
+    "Name": "Boost dommage",
+    "ItemType": 5,
+    "Value": 20,
+    "Quantity": 1
+  },
+  {
+    "Name": "Boost vitesse",
+    "ItemType": 6,
+    "Value": 20,
+    "Quantity": 1
+  },
+  {
+    "Name": "Boost defense",
+    "ItemType": 7,
+    "Value": 20,
+    "Quantity": 1
+  }
+]
