@@ -28,6 +28,7 @@ namespace Projet1BaseDuCsharpGrp5
             if (pokemonOfPlayerActive == null)
             {
                 _ui.ShowMessage("Vous n'avez aucun Pokémon vivant pour combattre.");
+                World.RedrawCurrentMap();
                 return;
             }
 
@@ -48,6 +49,7 @@ namespace Projet1BaseDuCsharpGrp5
             if (pokemonOfPlayerActive == null)
             {
                 _ui.ShowMessage("Vous n'avez aucun Pokémon vivant.");
+                World.RedrawCurrentMap();
                 return;
             }
             if (pokemonOfPnjActive == null)
