@@ -238,7 +238,6 @@ public class MainMenu : IMenu
     private void DrawPixel(int x, int y, Rgb color)
     {
         if (x < 0 || y < 0 || x >= Console.BufferWidth || y >= Console.BufferHeight) {
-            Console.WriteLine("Taille de console insufisante !");
             return;
         }
 
