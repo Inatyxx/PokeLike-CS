@@ -141,6 +141,31 @@ public class MainMenu : IMenu
 
     public void Run()
     {
+        // Calculer la taille minimale requise
+        int minWidth = Math.Max(art.GetLength(1), ButtonWidth) + 4;
+        int minHeight = art.GetLength(0)
+                       + 3 // noms
+                       + ButtonSpacing
+                       + options.Length * ButtonHeight
+                       + (options.Length - 1) * ButtonSpacing
+                       + 4;
+
+        // Ajuster la taille du buffer et de la fenêtre si besoin
+        try
+        {
+            if (Console.BufferWidth < minWidth || Console.WindowWidth < minWidth)
+            {
+                Console.SetWindowSize(Math.Min(minWidth, Console.LargestWindowWidth), Console.WindowHeight);
+                Console.SetBufferSize(minWidth, Console.BufferHeight);
+            }
+            if (Console.BufferHeight < minHeight || Console.WindowHeight < minHeight)
+            {
+                Console.SetWindowSize(Console.WindowWidth, Math.Min(minHeight, Console.LargestWindowHeight));
+                Console.SetBufferSize(Console.BufferWidth, minHeight);
+            }
+        }
+        catch { /* Ignorer les erreurs si la console ne supporte pas */ }
+
         Console.Clear();
         Console.CursorVisible = false;
 
