@@ -62,7 +62,16 @@ namespace Projet1BaseDuCsharpGrp5
                 return null;
 
             string jsonString = File.ReadAllText(filePath);
-            return JsonSerializer.Deserialize<GameSave>(jsonString);
+            var save = JsonSerializer.Deserialize<GameSave>(jsonString);
+
+            // Ajout : réinitialise les compétences de chaque Pokémon du joueur
+            if (save?.Player?.TeamPokemons != null)
+            {
+                foreach (var poke in save.Player.TeamPokemons)
+                    poke.OnInitPokemon();
+            }
+
+            return save;
         }
     }
 }
