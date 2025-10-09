@@ -29,7 +29,7 @@ namespace Projet1BaseDuCsharpGrp5
         public static bool InputBlocked { get; set; } = false;
         private static readonly Dictionary<string, Map> maps = new();
         private static readonly Dictionary<string, Biome> Biomes = new();
-        public static Map CurrentMap { get; private set; }
+        public static Map CurrentMap { get; set; }
         public static Player player;
         public static List<Pnj> Pnjs { get; private set; }
         public static Dictionary<string, Pnj> PnjsByName { get; private set; }
@@ -764,7 +764,7 @@ namespace Projet1BaseDuCsharpGrp5
 
             maps[Cave.Name] = Cave;
 
-            //############################################################################# Chsmpa #################################
+            //############################################################################# Champs #################################
             var Champs = new Map("field", 40, 40, "FlowerField");
             Map.SetCentering(Champs, true);
             Champs.Fill((x, y) => new Tile(new Rgb(139, 203, 35), isGrass: false));
@@ -849,50 +849,16 @@ namespace Projet1BaseDuCsharpGrp5
             ChangeMap("HouseInterior", 9, 5);
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         public static void ChangeMap(string name)
         {
             if (!maps.TryGetValue(name, out var map))
                 throw new ArgumentException($"Map introuvable : {name}");
 
             CurrentMap = map;
-
             Console.Clear();
-
             player.SetPosition(player.X, player.Y);
+
+            InputBlocked = false;
 
             Run();
         }

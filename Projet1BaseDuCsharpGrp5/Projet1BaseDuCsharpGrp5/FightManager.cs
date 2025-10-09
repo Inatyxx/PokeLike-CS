@@ -138,6 +138,8 @@ namespace Projet1BaseDuCsharpGrp5
                             {
                                 _ui.ShowMessage("Tous vos Pokémon sont K.O. Vous perdez le combat.");
                                 battleOver = true;
+                                World.InputBlocked = false;
+                                World.ChangeMap("healmap", 5, 5);
                                 World.RedrawCurrentMap();
                                 break;
                             }
